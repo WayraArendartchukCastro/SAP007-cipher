@@ -5,10 +5,39 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <header>
+    <img src="imagens/egon:klimt.jpeg" alt="Pintura cidade Egon e Klimt">
+  </header>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <main>
+    <div>
+      <h1 id="título">Crie sua mensagem criptografada: </h1><br>
+      <p id="explicação">" A Cifra de César é uma técnica de criptografia bastante simples e provavelmente a mais conhecida de todas.
+           Trata-se de um tipo de cifra de substituição, na qual cada letra de um texto a ser criptografado é substituída por outra letra, presente no alfabeto porém deslocada um certo número de posições à esquerda ou à direita.
+           A cifra de César recebe esse nome pois, segundo o escritor Suetônio, foi utilizada por Júlio César para se comunicar com seus generais, protegendo mensagens militares."</p><br><br>
     </div>
+  <fieldset> <!-- junção de campos -->
+    <div id="cripto">
+        <label><strong>Digite seu texto aqui:</strong>  <br>
+        <input type= "texto" id="criptografar" placeholder="somente texto"/> </label> <br>
+        <label><strong>Indique a chave de deslocamento:</strong><br>
+        <input type="numeric" id="öffset" placeholder="somente número"></label>
+        <input type="button" value="cifrar!">
+  </fieldset> <br><br>
+  <fieldset>
+    </div><div id="decript">
+        <label><strong>Digite o texto que deseja decifrar:</strong> <br>
+        <input type= "texto" id="decifrar" placeholder="somente texto"/> </label> <br>
+        <label><strong>Indique a chave de deslocamento:</strong><br>
+        <input type="numeric" id="öffset" placeholder="somente número"></label>
+        <input type="button" value="decifrar!">
+  </fieldset>
+  <input type="box">
+    </div>
+  </main>
+  <div class="footer">
+    <p> Estudo feito por Wayra Arendartchuk ∴ Cifra de Cesar ∴ LAB007 </p>
+  </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
