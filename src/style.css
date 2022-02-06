@@ -1,21 +1,88 @@
-*{
+html,body {
+    padding: 0; /* padding define uma distância entre o conteúdo de um elemento e suas bordas */
     margin: 0;
-    padding: 0;
-    background-color: rgb(238, 186, 55);
+    height: 100%;
+    font-family: sans-serif;
+    background-color: rgb(255,211,67);
+    font-family: monospace;
 }
-img{
-    top: 40px; 
-    right: 40px;
-    position: relative;
-    left: 400px;
- }
-#título{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: rgb(85, 82, 79);
-    margin-left: 25%;
+header[role="banner"] #disquete {
+    display:block; /* o elemento gera uma caixa de elemento de  bloco*/
+    margin: 0px auto;
+    width: 600px; /* tamanho da imagem */
 }
-#explicação{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: slategray;
-    margin-left: 1%;
+#titulo{
+    text-align: center; /* alinhado centralizado*/
+    color: rgb(85, 82,79);
+    font-size: 40px; /* tamanho da fonte */
+    text-shadow: 2px 2px #dddd; /* sombras */
+}
+#explicacao{
+    text-align: center;
+    color: rgb(85,82,79);
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+#cxTexto{
+    font-size: 20px;
+    border: 0;
+}
+.centralizar{
+    text-align: center;
+}
+#inputCaixaTexto{
+    background-color: #D4C3AF;
+    border: none; /* tira a borda de decoração*/
+    margin: 0 auto 10px; /* margem entre uma caixa e outra */
+    padding: 20px 30px; 
+    font-size: 20px; 
+    cursor: pointer;
+}
+#Offset{
+    background-color: #D4C3AF;
+    border: none;
+    margin: 0 auto 10px;
+    padding: 20px 95px; /* tamanho do conteiner*/
+    font-size: 20px;
+    cursor: pointer;
+    font-family: monospace;
+}
+#result{
+    background-color: #D4C3AF;
+    border: none;
+    margin: 0 auto 10px;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#encrypt, #decrypt, #clean{ /* botões */
+    background-color: #D4C3AF;
+    color: rgb(85, 82,79);
+    padding: 15px 40px; /* tamanho do botão */
+    cursor:pointer;
+    border: none;
+}
+#encrypt:hover{ /* botão quando o mouse passa por cima */
+    background-color: plum;
+}
+#decrypt:hover{
+    background-color: orange;
+}
+#clean:hover{
+    background-color: yellow;
+}
+hr{
+    border: none; /* tira a decoração do hr*/
+    margin:60px; /* criou um espaçamento invisível entre os botões e o footer*/
+}
+footer{
+    background-color: #eef1ec; /* fundo do footer*/
+    padding: 10px; /* altura do footer*/
+    font-size: 15px;
+    text-align: center;
 }
