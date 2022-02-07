@@ -60,20 +60,20 @@ a{
     font-size: 20px;
     cursor: pointer;
 }
-#encrypt, #decrypt, #clean{ /* botões */
+#btnEncrypt, #btnDecrypt, #btnClean{ /* botões */
     background-color: #D4C3AF;
     color: rgb(85, 82,79);
     padding: 15px 40px; /* tamanho do botão */
     cursor:pointer;
     border: none;
 }
-#encrypt:hover{ /* botão quando o mouse passa por cima */
+#btnEncrypt:hover{ /* botão quando o mouse passa por cima */
     background-color: plum;
 }
-#decrypt:hover{
+#btnDecrypt:hover{
     background-color: orange;
 }
-#clean:hover{
+#btnClean:hover{
     background-color: yellow;
 }
 hr{
