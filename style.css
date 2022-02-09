@@ -1,0 +1,88 @@
+html,body {
+    padding: 0; /* padding define uma distância entre o conteúdo de um elemento e suas bordas */
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: rgb(255,211,67);
+    font-family: monospace;
+}
+header[role="banner"] #disquete {
+    display:block; /* o elemento gera uma caixa de elemento de  bloco*/
+    margin: 0px auto;
+    width: 600px; /* tamanho da imagem */
+}
+#titulo{
+    text-align: center; /* alinhado centralizado*/
+    color: rgb(85, 82,79);
+    font-size: 40px; /* tamanho da fonte */
+    text-shadow: 2px 2px #dddd; /* sombras */
+}
+#explicacao{
+    text-align: center;
+    color: rgb(85,82,79);
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+#cxTexto{
+    font-size: 20px;
+    border: 0;
+}
+.centralizar{
+    text-align: center;
+}
+#inputCaixaTexto{
+    background-color: #D4C3AF;
+    border: none; /* tira a borda de decoração*/
+    margin: 0 auto 10px; /* margem entre uma caixa e outra */
+    padding: 20px 30px; 
+    font-size: 20px; 
+    cursor: pointer;
+}
+#Offset{
+    background-color: #D4C3AF;
+    border: none;
+    margin: 0 auto 10px;
+    padding: 20px 95px; /* tamanho do conteiner*/
+    font-size: 20px;
+    cursor: pointer;
+    font-family: monospace;
+}
+#result{
+    background-color: #D4C3AF;
+    border: none;
+    margin: 0 auto 10px;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#btnEncrypt, #btnDecrypt, #btnClean{ /* botões */
+    background-color: #D4C3AF;
+    color: rgb(85, 82,79);
+    padding: 15px 40px; /* tamanho do botão */
+    cursor:pointer;
+    border: none;
+}
+#btnEncrypt:hover{ /* botão quando o mouse passa por cima */
+    background-color: plum;
+}
+#btnDecrypt:hover{
+    background-color: orange;
+}
+#btnClean:hover{
+    background-color: yellow;
+}
+hr{
+    border: none; /* tira a decoração do hr*/
+    margin:60px; /* criou um espaçamento invisível entre os botões e o footer*/
+}
+footer{
+    background-color: #eef1ec; /* fundo do footer*/
+    padding: 10px; /* altura do footer*/
+    font-size: 15px;
+    text-align: center;
+}
