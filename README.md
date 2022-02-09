@@ -31,8 +31,8 @@ Com base nos princípios da Cifra de César, esta página Web permite que o usá
 
 Esta página web é destinada a qualquer pessoa que tenha curiosidade em cifrar ou decifrar uma mensagem de texto, utilizando a Cifra de César como método.
 
-## 4. Esboço da aplicação
-<img id="rascunho" src= "imagens/rascunho.jpeg" >
+## 4. Esboço da aplicação #-esboço-da-aplicação 
+<img src="imagens/rascunho.jpeg" with=200> 
 
 
 
