@@ -1,8 +1,8 @@
 import cipher from './cipher.js';
 
-let input = document.getElementById("inputCaixaTexto");
 function cifrar() {
-    let texto = input.value.toUpperCase;/* variável que recebe o texto pelo id e deixa o valor em LETRA MAIÚ */
+
+    let texto = document.getElementById("inputCaixaTexto").value.toUpperCase();/* variável que recebe o texto pelo id e deixa o valor em LETRA MAIÚ */
     let chave = Number(document.getElementById("Offset").value); /* recebe o offset */
     document.getElementById("result").value = cipher.encode(chave, texto); /* resultado com os valores de offset e texto */
 }
@@ -19,14 +19,14 @@ function limpar() {
     document.getElementById("result").value = "";
 }
 
-let btnEncrypt= document.getElementById('btnEncrypt');
-btnEncrypt.addEventListenner("click", cifrar);
+let btnEncrypt = document.getElementById('btnEncrypt');
+btnEncrypt.addEventListener("click", cifrar);
 
-let btnDecrypt=document.getElementById('btnDecrypt');
-btnDecrypt.addEventListenner("click", decifrar);
+let btnDecrypt = document.getElementById('btnDecrypt');
+btnDecrypt.addEventListener("click", decifrar);
 
-let btnClean=document.getElementById('btnClean');
-btnClean.addEventListenner("click", limpar);
+let btnClean = document.getElementById('btnClean');
+btnClean.addEventListener("click", limpar);
 
 
 

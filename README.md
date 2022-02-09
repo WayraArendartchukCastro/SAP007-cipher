@@ -4,8 +4,8 @@
 
 - [1. O que é Cifra de César](#1-cifra-de-cesar)
 - [2. Resumo do projeto](#2-resumo-do-projeto)
-- [3. Público Alvo](#-publico-alvo)
-- [4. Esboço da aplicação] (#-esboço-da-aplicação) 
+- [3. Público Alvo](#3-publico-alvo)
+- [4. Esboço da aplicação](#4-esboço-da-aplicação) 
 
 
 ---
@@ -32,7 +32,7 @@ Com base nos princípios da Cifra de César, esta página Web permite que o usá
 Esta página web é destinada a qualquer pessoa que tenha curiosidade em cifrar ou decifrar uma mensagem de texto, utilizando a Cifra de César como método.
 
 ## 4. Esboço da aplicação #-esboço-da-aplicação 
-<img src="imagens/rascunho.jpeg" with=200> 
+<img src="./imgReadme/rascunho.jpeg" width="200"/> 
 
 
 
