@@ -31,6 +31,7 @@ const cipher = {
       }else{
         resultado += String.fromCharCode(codigoAsc);
       }
+      
     }
     return resultado;
   },
