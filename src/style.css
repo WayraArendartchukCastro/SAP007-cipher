@@ -42,6 +42,7 @@ a{
     padding: 20px 30px; 
     font-size: 20px; 
     cursor: pointer;
+    resize: none; /* sugestão Paloma */
 }
 #Offset{
     background-color: #D4C3AF;
@@ -59,6 +60,7 @@ a{
     padding: 20px 30px;
     font-size: 20px;
     cursor: pointer;
+    resize: none;
 }
 #btnEncrypt, #btnDecrypt, #btnClean{ /* botões */
     background-color: #D4C3AF;
